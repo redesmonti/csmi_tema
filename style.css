@@ -1,5 +1,5 @@
 /*
-Theme Name: Monti Sedadent
+Theme Name: Monti csmi
 Theme URI: https://wordpress.org/themes/monti/
 Author: Michelle Navia
 Author URI: https://wordpress.org/
@@ -20,13 +20,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 h1,h2,h3,h4,h5,h6{
 font-family: 'Open Sans', sans-serif;
-font-weight: 800!important;
+font-weight: 800;
 }
-p, span, ul, li, a, {
+p, span, ul, li, a{
 font-family: 'Open Sans', sans-serif;
+font-size: 12px;
 }
 body {
-    background: #f7f7f7;
+    background: #fff;
 }
 
 /*--------------------------------------------------------------
@@ -50,17 +51,10 @@ nav.navegacion ul li{
 
 }
 nav.navegacion ul li a {
-    color: #5ab6a4;
-    font-weight: bold;
-    padding: 13px;
-    padding-bottom: 3px;
-    border-bottom: 10px solid #fff;
-    transition: 0.3s ease;
+
 }
 nav.navegacion ul li a:hover, nav.navegacion ul li a:active, nav.navegacion ul li a:focus {
-    background: transparent;
-    border-bottom: 10px solid #5ab6a4;
-    transition: 0.3s ease;
+
 }
 
 #navbarjs {
@@ -117,4 +111,233 @@ nav.navegacion ul li a:hover, nav.navegacion ul li a:active, nav.navegacion ul l
 }
 .navbar-brand h3 {
     margin-top: 0px;
+}
+.contenedor-especialidades {
+    background: #efefef;
+}
+.contenedor-especialidades h1 {
+    background: #2e4162;
+    color: #fff;
+    width: 200px;
+    height: 45px;
+    border-radius: 0px 15px 0px 0px;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    box-shadow: 5px 4px 4px #0000005c;
+    padding: 15px 0px;
+}
+p.bajada-titulo-especialidades {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color:  #2e4162;
+}
+.todas-las-especialidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tajeta-especialidades {
+    padding: 15px;
+    width: 300px;
+}
+.imagen {
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+transition: 0.5s ease ;
+  background-position: center;
+  background-size: 111%;
+}
+.imagen:hover{
+/*background-size: 120%;*/
+transition: 0.5s ease ;
+}
+.adulto{
+  background-image: url(http://localhost/miguelclaro/wp-content/uploads/2018/07/adulto.png);
+}
+.infanto{
+  background-image: url(http://localhost/miguelclaro/wp-content/uploads/2018/07/infanto.png);
+}
+.familia  {
+  background-image: url(http://localhost/miguelclaro/wp-content/uploads/2018/07/familia.png);
+}
+.pareja{
+  background-image: url(http://localhost/miguelclaro/wp-content/uploads/2018/07/pareja.png);
+}
+
+.gradiente-especialidad {
+    background: -moz-linear-gradient(top, rgba(46,65,98,0.67) 0%, rgba(46,65,98,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(46,65,98,0.67) 0%,rgba(46,65,98,0) 100%);
+    background: linear-gradient(to bottom, rgba(46,65,98,0.67) 0%,rgba(46,65,98,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ab2e4162', endColorstr='#002e4162',GradientType=0 );
+    width: 100%;
+    height: 294px;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.tajeta-especialidades:hover .gradiente-especialidad{
+  opacity: 1;
+  transition: 0.5s ease;
+}
+.titulo-especialidad h2 {
+    background: #2e4162;
+    color: #fff;
+    width: 132px;
+    height: 35px;
+    border-radius: 0px 15px 0px 0px;
+    font-size: 14px;
+    text-align: left;
+    margin: auto;
+    padding: 12px 10px;
+    position: absolute;
+    bottom: 0px;
+    font-weight: normal;
+}
+.texto-video {
+    padding: 75px;
+}
+
+.texto-video h2 {
+    color: #2e4162;
+    border-bottom: 5px solid #2e4162;
+    font-size: 22px;
+    width: 62%;
+}
+.texto-video p {
+    text-align: justify;
+}
+
+.articulos h1 {
+    background: #5c7c97;
+    color: #fff;
+    width: 200px;
+    height: 45px;
+    border-radius: 0px 15px 0px 0px;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    box-shadow: 5px 4px 4px #0000005c;
+    padding: 15px 0px;
+}
+p.bajada-articulos {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #2e4162;
+}
+.articulos {
+    background: #e6e6e6;
+    padding-bottom: 50px;
+}
+.contenedor-titulo {
+    background: #fff;
+    height: 60px;
+    margin-bottom: 75px;
+    padding-top: 40px;
+}
+
+/* Tarjetas Chicas */
+.tarjeta-grande, .tarjeta-chica {
+    overflow: hidden;
+    background: #fff;
+}
+.tarjeta-grande h3, .tarjeta-chica h3 {
+    padding-left: 10px;|
+    padding-right: 10px;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+.tarjeta-grande p, .tarjeta-chica p {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.tarjeta-grande:hover .redes-sociales, .tarjeta-chica:hover .redes-sociales {
+   top: 0px;
+    transition: 0.5s ease;
+}
+.tarjeta-grande:hover .gradiente-foto, .tarjeta-chica:hover .gradiente-foto{
+  transition: 0.5s ease;
+  opacity: 1;
+}
+.redes-sociales {
+    display: flex;
+    transition: 0.5s ease;
+    position: absolute;
+    top: -24px;
+    right: 0;
+}
+
+.facebook {
+    width: 24px;
+    height: 24px;
+    background: #3b5998;
+    color: #fff;
+    text-align: center;
+    padding-top: 3px;
+}
+.twitter {
+    width: 24px;
+    height: 24px;
+    background: #00aced;
+    color: #fff;
+    text-align: center;
+    padding-top: 3px;
+}
+.wsp {
+    background: #25d366;
+    width: 24px;
+    height: 24px;
+    color: #fff;
+    text-align: center;
+    padding-top: 3px;
+}
+.tarjeta-chica {
+    margin-bottom: 15px;
+    display: -webkit-box;
+    height: 127px;
+}
+.tarjeta-chica .foto-noticia{
+  width: 40%;
+}
+.tarjeta-chica .foto-noticia img {
+    width: 159%;
+}
+.tarjeta-chica .texto{
+  width: 60%;
+}
+.foto-noticia {
+    overflow: hidden;
+    position: relative;
+    height: 175px;
+}
+.foto-noticia img {
+    width: 106%;
+}
+.gradiente-foto {
+    background: rgba(0,0,0,0.64);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.64) 0%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.64)), color-stop(100%, rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.64) 0%, rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0.64) 0%, rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.64) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.64) 0%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+    height: 100px;
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+}
+
+
+.boton-ver-mas-frente{
+  text-align: center;
 }

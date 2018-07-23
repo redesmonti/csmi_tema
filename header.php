@@ -30,14 +30,10 @@
 	            </button>  
 	          </div>
 	          <div class="smooth-scroll collapse navbar-collapse navbar-right navbar-ex1-collapse">
-	            <?php wp_nav_menu( array( 
-	              'theme_location' => 'navigation',
-	              'depth' => 2,
-	              'container' => false,
-	              'container_id' => 'navbar',
-	              'container_class' => 'collapse navbar-collapse', 
-	              'menu_class' => 'nav navbar-nav navbar-left',
-	              'walker' => new WP_Bootstrap_Navwalker() ) ); ?>    
+	            <ul class="nav navbar-nav">
+			        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+			        <li><a href="#">Link</a></li>
+			    </ul>
 	          </div>
 	        </div>        
 	    </nav><!-- fin navegacion-->
