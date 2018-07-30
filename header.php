@@ -11,10 +11,27 @@
 <body><!--se cierra en footer.php-->
 	<header class="site-header">
 	    <nav class="navegacion navbar-fixed-top" id="navbarjs" role="navigation">
-			<!--<div class="zona-contactos">
-				<button class="tel"><i class="fa fa-phone" aria-hidden="true"></i> <strong>Tel: </strong>  +56 2 2604 74 59</button>
-				<button class="tel"><i class="fa fa-envelope" aria-hidden="true"></i> <strong>Mail:</strong>  contacto@sedadent.cl</button>
-			</div>-->
+			<div class="botones-header-llamado">
+			<div class="col-md-8"></div>
+			<div class="col-md-2">
+				<div class="llamado-telefono">
+					<div class="telefono-boton"><i class="fa fa-phone" aria-hidden="true"></i></div>
+					<div class="texto-boton">
+						<p>Contáctate con nosotros</p>
+						<button>99 876 543 21</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="llamado-telefono">
+					<div class="telefono-boton"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+					<div class="texto-boton">
+						<p>Escribenos</p>
+						<button>Correo@correo.cl</button>
+					</div>
+				</div>
+			</div>
+			</div>
 	        <div class="container">
 	          <div class="navbar-header"> 
 	            <div class="navbar-brand">
@@ -30,20 +47,17 @@
 	            </button>  
 	          </div>
 	          <div class="smooth-scroll collapse navbar-collapse navbar-right navbar-ex1-collapse">
-	            <ul class="nav navbar-nav">
-			        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-			        <li><a href="#">Link</a></li>
-			    </ul>
+	            <?php wp_nav_menu( array( 
+	              'theme_location' => 'navigation',
+	              'depth' => 2,
+	              'container' => false,
+	              'container_id' => 'navbar',
+	              'container_class' => 'collapse navbar-collapse', 
+	              'menu_class' => 'nav navbar-nav navbar-left',
+	              'walker' => new WP_Bootstrap_Navwalker() ) ); ?>  
 	          </div>
 	        </div>        
 	    </nav><!-- fin navegacion-->
 	</header>
 
 <!-- botoneras redes sociales -->
-	<div class="social">
-		<ul>
-			<li><a href="#" target="_blank" class="icon-facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-			<li><a href="callto:+56226047459" target="_blank" class="icon-googleplus"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
-			<li><a href="mailto:contacto@sedadent.cl" class="icon-mail"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-		</ul>
-	</div>

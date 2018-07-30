@@ -28,6 +28,7 @@ font-size: 12px;
 }
 body {
     background: #fff;
+    margin-top: 115px;
 }
 
 /*--------------------------------------------------------------
@@ -58,7 +59,7 @@ nav.navegacion ul li a:hover, nav.navegacion ul li a:active, nav.navegacion ul l
 }
 
 #navbarjs {
-    position: fixed;
+/*    position: fixed;*/
     box-shadow: 1px 1px 7px #00000045;
 }
 /*togglenavigation*/
@@ -112,6 +113,34 @@ nav.navegacion ul li a:hover, nav.navegacion ul li a:active, nav.navegacion ul l
 .navbar-brand h3 {
     margin-top: 0px;
 }
+
+
+.llamado-telefono {
+    display: -webkit-box;
+}
+.telefono-boton {
+    padding: 10px;
+}
+.telefono-boton i.fa {
+    font-size: 30px;
+    color: #5d7d97;
+}
+.texto-boton p {
+    margin: 0px;
+    font-size: 10px;
+    color: #5d7d97;
+}
+.texto-boton button {
+    padding: 3px 13px;
+    background: #2e4162;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
 .contenedor-especialidades {
     background: #efefef;
 }
@@ -340,4 +369,69 @@ p.bajada-articulos {
 
 .boton-ver-mas-frente{
   text-align: center;
+}
+
+
+
+
+
+
+
+.imagen-equipo img {
+    width: 100%;
+}
+h1.titulo-pagina {
+    color: #5d7d97;
+    font-size: 30px;
+}
+p.parrafo-pagina {
+    margin-top: 25px;
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.sidebar h2 {
+    font-size: 16px;
+    margin-top: 37px;
+    color: #5d7d97;
+}
+.sidebar .tarjeta-chica {
+    margin-bottom: 15px;
+    display: -webkit-box;
+    height: 100px;
+}
+.sidebar .tarjeta-chica .foto-noticia {
+    width: 30%;
+}
+.tarjeta-especialista {
+    border: 1px solid #e0e0e0;
+    height: 360px;
+    overflow: hidden;
+    margin-bottom: 25px;    
+}
+.bloque-texto {
+    padding: 0px 10px;
+}
+.tarjeta-especialista h3 {
+    font-size: 16px;
+    color: #5d7d97;
+    margin-bottom: 0px;
+}
+.contenido-especialista{
+    text-align: justify;
+}
+p.etiqueta {
+    font-size: 14px;
+    color: #2e4162;
+    font-weight: bold;
+}
+.foto-profesional {
+    height: 150px;
+    overflow: hidden;
+}
+.bloque-texto hr {
+    margin: 5px 0px;
+}
+.contenedor-contenido{
+    text-align: justify;
 }
