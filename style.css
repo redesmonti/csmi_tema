@@ -43,7 +43,7 @@ nav.navegacion {
     background: #fff;
 }
 nav.navegacion ul{
-  margin-top: 12px;
+
 }
 nav.navegacion ul li{
   /*para los dispositivos moviles*/
@@ -52,15 +52,18 @@ nav.navegacion ul li{
 
 }
 nav.navegacion ul li a {
-
+    color: #fff;
 }
 nav.navegacion ul li a:hover, nav.navegacion ul li a:active, nav.navegacion ul li a:focus {
-
+background: transparent;
 }
-
+.botones-header-llamado {
+    background: #fff;
+}
 #navbarjs {
-/*    position: fixed;*/
+    /* position: fixed; */
     box-shadow: 1px 1px 7px #00000045;
+    background: #98a8b6;
 }
 /*togglenavigation*/
 .navbar .navbar-header,
@@ -77,6 +80,40 @@ nav.navegacion ul li a:hover, nav.navegacion ul li a:active, nav.navegacion ul l
   border-radius: 1px;
 }
 
+.borde-menu{
+    -webkit-clip-path: circle(100.0% at 0 100%);
+        clip-path: circle(100.0% at 0 100%);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+}
+.cuadrado{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.azul_uno {
+    background: #98a8b6;
+}
+.azul_dos {
+    background: #73899b;
+}
+.azul_tres {
+    background: #5c7c97;
+}
+.azul_cuatro {
+    background: #3e5d78;
+}
+.azul_cinco {
+    background: #315575;
+}
+.azul_seis {
+    background: #2e4162;
+}
 /*codigo para ajustar logo en navbar*/
 .navbar-brand {
   /*padding 8px ajusta bien para todos los dispositivos*/
@@ -187,16 +224,16 @@ transition: 0.5s ease ;
 transition: 0.5s ease ;
 }
 .adulto{
-  background-image: url(http://localhost/miguelclaro/wp-content/uploads/2018/07/adulto.png);
+  background-image: url(http://csmi.monticomunicaciones.cl/wp-content/uploads/2018/07/adulto.png);
 }
 .infanto{
-  background-image: url(http://localhost/miguelclaro/wp-content/uploads/2018/07/infanto.png);
+  background-image: url(http://csmi.monticomunicaciones.cl/wp-content/uploads/2018/07/infanto.png);
 }
 .familia  {
-  background-image: url(http://localhost/miguelclaro/wp-content/uploads/2018/07/familia.png);
+  background-image: url(http://csmi.monticomunicaciones.cl/wp-content/uploads/2018/07/familia.png);
 }
 .pareja{
-  background-image: url(http://localhost/miguelclaro/wp-content/uploads/2018/07/pareja.png);
+  background-image: url(http://csmi.monticomunicaciones.cl/wp-content/uploads/2018/07/pareja.png);
 }
 
 .gradiente-especialidad {
@@ -331,13 +368,15 @@ p.bajada-articulos {
 .tarjeta-chica {
     margin-bottom: 15px;
     display: -webkit-box;
-    height: 127px;
+    height: 125px;
+}
 }
 .tarjeta-chica .foto-noticia{
   width: 40%;
 }
 .tarjeta-chica .foto-noticia img {
-    width: 159%;
+    width: 227px;
+    height: auto;
 }
 .tarjeta-chica .texto{
   width: 60%;
@@ -348,7 +387,11 @@ p.bajada-articulos {
     height: 175px;
 }
 .foto-noticia img {
-    width: 106%;
+    width: 117%;
+    height: auto;
+}
+.tarjeta-chica .foto-noticia{
+  width: 40%;
 }
 .gradiente-foto {
     background: rgba(0,0,0,0.64);
@@ -370,7 +413,11 @@ p.bajada-articulos {
 .boton-ver-mas-frente{
   text-align: center;
 }
-
+.contenido-pagina .tarjeta-grande {
+    height: 375px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
 
 
 
@@ -398,10 +445,14 @@ p.parrafo-pagina {
 .sidebar .tarjeta-chica {
     margin-bottom: 15px;
     display: -webkit-box;
-    height: 100px;
+    height: 91px;
 }
 .sidebar .tarjeta-chica .foto-noticia {
     width: 30%;
+}
+.sidebar .tarjeta-chica .foto-noticia img {
+    width: 159px;
+    height: auto;
 }
 .tarjeta-especialista {
     border: 1px solid #e0e0e0;
@@ -429,9 +480,25 @@ p.etiqueta {
     height: 150px;
     overflow: hidden;
 }
+.foto-profesional img {
+    width: 100%;
+    height: auto;
+}
 .bloque-texto hr {
     margin: 5px 0px;
 }
 .contenedor-contenido{
     text-align: justify;
+}
+
+.contenedor-tarjetas-chicas{
+    padding: 0px;
+}
+
+
+
+@media (max-width: 667px){
+    .llamado-telefono{
+        display: none;
+    }
 }

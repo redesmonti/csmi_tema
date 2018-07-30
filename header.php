@@ -11,9 +11,15 @@
 <body><!--se cierra en footer.php-->
 	<header class="site-header">
 	    <nav class="navegacion navbar-fixed-top" id="navbarjs" role="navigation">
-			<div class="botones-header-llamado">
-			<div class="col-md-8"></div>
-			<div class="col-md-2">
+			<div class="botones-header-llamado container-fluid">
+				<div class="col-md-8 col-xs-12">	            
+					<div class="navbar-brand">
+			            <a href="<?php bloginfo('url'); ?>">
+			              	<h3><img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" alt="..."></h3>
+			            </a>  
+			        </div> 
+		        </div>
+			<div class="col-md-2 col-xs-12">
 				<div class="llamado-telefono">
 					<div class="telefono-boton"><i class="fa fa-phone" aria-hidden="true"></i></div>
 					<div class="texto-boton">
@@ -22,7 +28,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-2">
+			<div class="col-md-2 col-xs-12">
 				<div class="llamado-telefono">
 					<div class="telefono-boton"><i class="fa fa-envelope" aria-hidden="true"></i></div>
 					<div class="texto-boton">
@@ -32,13 +38,8 @@
 				</div>
 			</div>
 			</div>
-	        <div class="container">
+	        <div class="container menu_principal">
 	          <div class="navbar-header"> 
-	            <div class="navbar-brand">
-	              <a href="<?php bloginfo('url'); ?>">
-	              	<h3><img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" alt="..."></h3>
-	              </a>  
-	            </div> 
 	            <button type="button" class="navbar-toggle smooth-scroll" data-toggle="collapse" data-target=".navbar-ex1-collapse"> 
 	              <span class="sr-only">Toggle navigation</span> 
 	              <span class="icon-bar"></span> 
@@ -47,14 +48,38 @@
 	            </button>  
 	          </div>
 	          <div class="smooth-scroll collapse navbar-collapse navbar-right navbar-ex1-collapse">
-	            <?php wp_nav_menu( array( 
-	              'theme_location' => 'navigation',
-	              'depth' => 2,
-	              'container' => false,
-	              'container_id' => 'navbar',
-	              'container_class' => 'collapse navbar-collapse', 
-	              'menu_class' => 'nav navbar-nav navbar-left',
-	              'walker' => new WP_Bootstrap_Navwalker() ) ); ?>  
+	            <ul class="nav navbar-nav">
+			        <li class="active">
+		        		<a href="<?php bloginfo('url'); ?>">Inicio</a>
+		        		<div class="cuadrado azul_dos"></div>
+		        		<div class="borde-menu azul_uno"></div>
+			        </li>
+			        <li class="azul_dos">
+			       		<a href="<?php bloginfo('url'); ?>/quienes-somos/">Quienes Somos</a>
+			       		<div class="cuadrado azul_tres"></div>
+		        		<div class="borde-menu azul_dos"></div>
+			        </li>
+			        <li class="azul_tres">
+			       		<a href="<?php bloginfo('url'); ?>/especialidades/">Especialidades</a>
+			       		<div class="cuadrado azul_cuatro"></div>
+		        		<div class="borde-menu azul_tres"></div>
+			        </li>
+			        <li class="azul_cuatro">
+			       		<a href="<?php bloginfo('url'); ?>/profesionales/">Profesionales</a>
+			       		<div class="cuadrado azul_cinco"></div>
+		        		<div class="borde-menu azul_cuatro"></div>
+			        </li>
+			        <li class="azul_cinco">
+			       		<a href="<?php bloginfo('url'); ?>/articulos/">Articulos</a>
+			       		<div class="cuadrado azul_seis"></div>
+		        		<div class="borde-menu azul_cinco"></div>
+			        </li>
+			        <li class="azul_seis">
+			       		<a href="<?php bloginfo('url'); ?>/contacto/">Contacto</a>
+			       		<div class="cuadrado azul_uno"></div>
+		        		<div class="borde-menu azul_seis"></div>
+			        </li>
+			    </ul>
 	          </div>
 	        </div>        
 	    </nav><!-- fin navegacion-->

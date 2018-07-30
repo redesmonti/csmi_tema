@@ -27,8 +27,7 @@ Template Name: Articulos
 	                <?php if(!empty($url)){ ?>
 			 <!-- loop de wordpress este debe ser el contenido para editar desde wordpress -->
 			<div class="col-md-4">
-			 	<div class="tarjetas-chicas">
-					<div class="tarjeta-chica wow fadeInUp">
+					<div class="tarjeta-grande wow fadeInUp">
 						<div class="foto-noticia">
 							<div class="gradiente-foto"></div>		
 							<div class="redes-sociales">
@@ -51,7 +50,6 @@ Template Name: Articulos
 							<p><?php the_excerpt(); ?></p>	
 						</div>
 					</div>
-				</div>
 			</div>
 			<?php } ?>
 	        <?php $i++;endwhile; endif; ?>

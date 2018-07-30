@@ -44,7 +44,7 @@ echo do_shortcode('[smartslider3 slider=2]');
 		<div class="tajeta-especialidades">
 			<div class="imagen pareja">
 				<div class="titulo-especialidad">
-					<h2>Pareja</h2>
+					<h2>Pareja y Género</h2>
 				</div>
 				<div class="gradiente-especialidad"></div>
 			</div>
@@ -112,7 +112,7 @@ echo do_shortcode('[smartslider3 slider=2]');
 			</div>
 			<?php endwhile; endif; ?> 	
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-8 contenedor-tarjetas-chicas">
 			<?php
             $currentPage = (get_query_var('paged')) ? get_query_var('paged') : 1 ; //cuenta el numero de post y si no existen vuelve a la primera pagina
                 global $wp_query;
@@ -127,7 +127,8 @@ echo do_shortcode('[smartslider3 slider=2]');
                 $the_query = new WP_Query( $args );    
         		?>
 			<?php if ( have_posts() ) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-			<div class="tarjetas-chicas">
+				<div class="col-md-6">
+					<div class="tarjetas-chicas">
 				<div class="tarjeta-chica wow fadeInUp">
 					<div class="foto-noticia">
 						<div class="gradiente-foto"></div>		
@@ -152,6 +153,8 @@ echo do_shortcode('[smartslider3 slider=2]');
 					</div>
 				</div>
 			</div>
+				</div>
+			
 			<?php endwhile; endif; ?>
 		</div>
 	</div>

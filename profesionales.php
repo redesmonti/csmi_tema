@@ -29,9 +29,7 @@ Template Name: Profesionales
 		                <?php if(!empty($url)){ ?>
 					<div class="tarjeta-especialista">
 						<div class="foto-profesional">
-							<a href="<?php the_permalink(); ?>">
-	                            <?php  if ( has_post_thumbnail() ) { the_post_thumbnail('large', array('class' => 'img-responsive')); }?>
-	                        </a>
+	                            <?php  if ( has_post_thumbnail() ) { the_post_thumbnail('large', array('class' => '')); }?>
 						</div>
 						<div class="bloque-texto">
 							<h3><?php the_title(); ?></h3>
