@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: Quienes somos
+Template Name: Especialidades
 */
 ?>
 <?php get_header(); ?>
