@@ -8,6 +8,8 @@ Template Name: Contacto
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-8 contenido-pagina">
+		<h1>Contacto</h1>
+		<p>Puede enviarnos sus dudas rellenando el siguiente formulario</p>
 			<form id="contact-form" name="contact-form" action="<?php echo ('http://csmi.monticomunicaciones.cl/contacto/');?>#contact-form" method="post">
 	              <?php //Comprobamos si el formulario ha sido enviado
 	              if (isset( $_POST['btn-submit'] )) {

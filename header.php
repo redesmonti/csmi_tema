@@ -33,7 +33,7 @@
 					<div class="telefono-boton"><i class="fa fa-envelope" aria-hidden="true"></i></div>
 					<div class="texto-boton">
 						<p>Escribenos</p>
-						<button>Correo@correo.cl</button>
+						<button>contacto@csmi.cl</button>
 					</div>
 				</div>
 			</div>
@@ -55,7 +55,7 @@
 		        		<div class="borde-menu azul_uno"></div>
 			        </li>
 			        <li class="azul_dos">
-			       		<a href="<?php bloginfo('url'); ?>/quienes-somos/">Quienes Somos</a>
+			       		<a href="<?php bloginfo('url'); ?>/quienes-somos/">Quiénes somos</a>
 			       		<div class="cuadrado azul_tres"></div>
 		        		<div class="borde-menu azul_dos"></div>
 			        </li>
@@ -70,7 +70,7 @@
 		        		<div class="borde-menu azul_cuatro"></div>
 			        </li>
 			        <li class="azul_cinco">
-			       		<a href="<?php bloginfo('url'); ?>/articulos/">Articulos</a>
+			       		<a href="<?php bloginfo('url'); ?>/articulos/">Artículos</a>
 			       		<div class="cuadrado azul_seis"></div>
 		        		<div class="borde-menu azul_cinco"></div>
 			        </li>
