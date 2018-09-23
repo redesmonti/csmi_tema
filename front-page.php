@@ -33,9 +33,10 @@ echo do_shortcode('[smartslider3 slider=2]');
 			</div>
 
 			<div class="texto">
-
-				<p>El objetivo es escoger a los individuos que estén mejor calificados para el empleo y colocarlos en los puestos a los que se adapten mejor</p>
-
+				<a href="<?php bloginfo('url'); ?>/laboral/">
+				
+					<p>El objetivo es escoger a los individuos que estén mejor calificados para el empleo y colocarlos en los puestos a los que se adapten mejor</p>
+				</a>
 			</div>
 
 		</div>
@@ -55,17 +56,19 @@ echo do_shortcode('[smartslider3 slider=2]');
 			</div>
 
 			<div class="texto">
-
-				<p>Promover un modelo de atención que dé cuenta de las necesidades de las personas, con un enfoque preventivo, integrador y sistémico-familiar</p>
-
+				<a href="<?php bloginfo('url'); ?>/salud-escolar/">
+				
+					<p>Promover un modelo de atención que dé cuenta de las necesidades de las personas, con un enfoque preventivo, integrador y sistémico-familiar</p>
+				</a>
 			</div>
 
 		</div>
 
 		<div class="tajeta-especialidades">
-
+			
+			
 			<div class="imagen familia">
-
+			
 				<div class="titulo-especialidad">
 
 					<h2>Infanto juvenil y adulto</h2>
@@ -77,11 +80,11 @@ echo do_shortcode('[smartslider3 slider=2]');
 			</div>
 
 			<div class="texto">
-
-				<p>Busca evaluar el motivo de consulta, formular un diagnostico de la situación o enfermedad y proponer un programa de tratamiento</p>
-
+				<a href="<?php bloginfo('url'); ?>/infanto-juvenil-y-adulto/">
+					<p>Busca evaluar el motivo de consulta, formular un diagnostico de la situación o enfermedad y proponer un programa de tratamiento</p>
+				</a>
 			</div>
-
+			
 		</div>
 
 		<div class="tajeta-especialidades">
@@ -99,9 +102,10 @@ echo do_shortcode('[smartslider3 slider=2]');
 			</div>
 
 			<div class="texto">
-
-				<p>Profesionales Psiquiatras y Psicólogos con formación en el uso de terapias complementarias, utilizan Terapia Floral de Bach y Aromaterapia </p>
-
+				<a href="<?php bloginfo('url'); ?>/especiales/">
+				
+					<p>Profesionales Psiquiatras y Psicólogos con formación en el uso de terapias complementarias, utilizan Terapia Floral de Bach y Aromaterapia </p>
+				</a>
 			</div>
 
 		</div>
