@@ -324,7 +324,7 @@ echo do_shortcode('[smartslider3 slider=2]');
 
 	<div class="col-md-12 boton-ver-mas-frente">
 
-		<a href="<?php bloginfo('url'); ?>/articulos">Ver más Articulos</a>
+		<a href="<?php bloginfo('url'); ?>/articulos">Ver más artículos</a>
 
 	</div>
 

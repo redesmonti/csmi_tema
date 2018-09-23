@@ -1,5 +1,5 @@
 <div class="sidebar">
-	<h2>Ultimos articulos</h2>
+	<h2>Ultimos artículos</h2>
 	<hr>
 	<div class="tarjetas-chicas">
 		<?php
