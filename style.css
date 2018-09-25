@@ -76,7 +76,7 @@ background: transparent;
   display: block;
   width: 26px;
   height: 4px;
-  background-color: #5ab6a4;
+  background-color: #fff;
   border-radius: 1px;
 }
 
@@ -120,7 +120,7 @@ background: transparent;
     padding: 0px;
 }
 .navbar-brand> a img {
-    width: 240px;
+    width: 160px;
 }
 /* para dispositivos moviles*/
 @media (min-width: 780px){
@@ -255,6 +255,20 @@ transition: 0.5s ease ;
     color: #fff;
     width: 132px;
     height: 35px;
+    border-radius: 0px 15px 0px 0px;
+    font-size: 14px;
+    text-align: left;
+    margin: auto;
+    padding: 12px 10px;
+    position: absolute;
+    bottom: 0px;
+    font-weight: normal;
+}
+.titulo-especialidadxl h2 {
+    background: #2e4162;
+    color: #fff;
+    width: 132px;
+    height: 45px;
     border-radius: 0px 15px 0px 0px;
     font-size: 14px;
     text-align: left;

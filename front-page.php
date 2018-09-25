@@ -69,7 +69,7 @@ echo do_shortcode('[smartslider3 slider=2]');
 			
 			<div class="imagen familia">
 			
-				<div class="titulo-especialidad">
+				<div class="titulo-especialidadxl">
 
 					<h2>Infanto juvenil y adulto</h2>
 

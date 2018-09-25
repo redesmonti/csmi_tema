@@ -15,7 +15,7 @@
 				<div class="col-md-8 col-xs-12">	            
 					<div class="navbar-brand">
 			            <a href="<?php bloginfo('url'); ?>">
-			              	<h3><img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" alt="..."></h3>
+			              	<h3><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logocsmi.jpeg" alt="Responsive image"></h3>
 			            </a>  
 			        </div> 
 		        </div>
