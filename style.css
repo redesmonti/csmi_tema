@@ -292,6 +292,14 @@ transition: 0.5s ease ;
     text-align: justify;
 }
 
+.contenedor-video {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
 .articulos h1 {
     background: #5c7c97;
     color: #fff;

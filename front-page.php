@@ -120,8 +120,8 @@ echo do_shortcode('[smartslider3 slider=2]');
 
 	<div class="col-md-6 video">
 
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/s5d02oVNkTU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		
-
 	</div>
 
 	<div class="col-md-6 texto-video">
