@@ -10,7 +10,7 @@ Template Name: Contacto
 		<div class="col-md-8 contenido-pagina">
 		<h1>Contacto</h1>
 		<p>Puede enviarnos sus dudas rellenando el siguiente formulario</p>
-			<form id="contact-form" name="contact-form" action="<?php echo ('http://csmi.monticomunicaciones.cl/contacto/');?>#contact-form" method="post">
+			<form id="contact-form" name="contact-form" action="<?php echo ('http://csmi.cl/contacto/');?>#contact-form" method="post">
 	              <?php //Comprobamos si el formulario ha sido enviado
 	              if (isset( $_POST['btn-submit'] )) {
 	                //Creamos una variable para almacenar los errores
@@ -43,7 +43,7 @@ Template Name: Contacto
 	 
 	                if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'])){
                       //your site secret key
-                      $secret = '6LcNVGcUAAAAAPInmOLlkMHlI3VM6RWPME5Uz_DL';
+                      $secret = '6LfEsHIUAAAAABoSJ3o0FRaQmqpVYwp5B_sAko2s';
                       //get verify response data
                       $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret='.$secret.'&response='.$_POST['g-recaptcha-response']);
                       $responseData = json_decode($verifyResponse);
@@ -51,7 +51,7 @@ Template Name: Contacto
                           //Si no hay errores enviamos el formulario
                           if (count($reg_errors->get_error_messages()) == 0) {
                             //Destinatario
-                            $recipient = "redes.monti@gmail.com";
+                            $recipient = "contacto@csmi.cl";
            
                             //Asunto del email
                             $subject = 'Formulario de contacto ' . get_bloginfo( 'name' );
@@ -162,7 +162,7 @@ Template Name: Contacto
 	                  <?php }
 	                }?>
 	              </div>
-	 			  <div class="g-recaptcha" data-sitekey="6LcNVGcUAAAAANtHSE5bkfyHUlZRbbzoPa6C6t1u"></div>
+	 			  <div class="g-recaptcha" data-sitekey="6LfEsHIUAAAAAPNgD2FtyGoNCURLp1FOG4fr4uGf"></div>
 	              <button type="submit" id="btn-submit" name="btn-submit" class="btn btn-default">Enviar</button>
 	    	</form>
 		</div>
