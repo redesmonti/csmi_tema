@@ -120,7 +120,7 @@ background: transparent;
     padding: 0px;
 }
 .navbar-brand> a img {
-    width: 160px;
+    width: 169px;
 }
 /* para dispositivos moviles*/
 @media (min-width: 780px){

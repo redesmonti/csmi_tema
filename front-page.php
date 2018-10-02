@@ -126,7 +126,7 @@ echo do_shortcode('[smartslider3 slider=2]');
 
 	<div class="col-md-6 texto-video">
 
-		<h2>Conoce más sobre la clínica</h2>
+		<h2>Conoce más sobre el Centro</h2>
 
 		<p>Lo que buscamos es entregar un servicio de atención a la salud mental de calidad, con cercanía hacia el paciente y su familia, pilares fundamentales para este tipo de tratamientos. El profesionalismo de nuestro equipo de especialistas nos mantiene con los más altos estándares al momento del diagnóstico y la atención</p>
 

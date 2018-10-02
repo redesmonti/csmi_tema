@@ -24,7 +24,7 @@
 					<div class="telefono-boton"><i class="fa fa-phone" aria-hidden="true"></i></div>
 					<div class="texto-boton">
 						<p>Contáctate con nosotros</p>
-						<button>99 876 543 21</button>
+						<a href="tel:+569987654321"><button>99 876 543 21</button></a>
 					</div>
 				</div>
 			</div>
@@ -33,7 +33,7 @@
 					<div class="telefono-boton"><i class="fa fa-envelope" aria-hidden="true"></i></div>
 					<div class="texto-boton">
 						<p>Escribenos</p>
-						<button>contacto@csmi.cl</button>
+						<a href="mailto:contacto@csmi.cl"><button>contacto@csmi.cl</button></a>
 					</div>
 				</div>
 			</div>

@@ -6,7 +6,7 @@ Template Name: Articulos
 <?php get_header(); ?>
 <div class="container-fluid">
 	<div class="col-md-8 contenido-pagina">
-		<h1 class="wow fadeInUp">Articulos</h1>
+		<h1 class="wow fadeInUp">Artículos</h1>
 		<div class="row">
 			<?php 
 	          $currentPage = (get_query_var('paged')) ? get_query_var('paged') : 1 ; //cuenta el numero de post y si no existen vuelve a la primera pagina
