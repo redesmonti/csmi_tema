@@ -442,10 +442,6 @@ p.bajada-articulos {
 }
 
 
-
-
-
-
 .imagen-equipo img {
     width: 100%;
 }
@@ -457,6 +453,7 @@ p.parrafo-pagina {
     margin-top: 25px;
     font-size: 14px;
     text-align: justify;
+    margin: 0 auto;
     margin-bottom: 50px;
 }
 .sidebar h2 {
@@ -511,7 +508,10 @@ p.etiqueta {
 }
 .contenedor-contenido{
     text-align: justify;
+    margin: 0 auto;
+
 }
+
 
 .contenedor-tarjetas-chicas{
     padding: 0px;

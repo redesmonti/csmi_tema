@@ -47,7 +47,7 @@ echo do_shortcode('[smartslider3 slider=2]');
 
 				<div class="titulo-especialidad">
 
-					<h2>Infanto Juvenil</h2>
+					<h2>Escolar</h2>
 
 				</div>
 
